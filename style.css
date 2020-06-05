@@ -1,0 +1,54 @@
+body {
+
+	background-image: url(banner.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+
+	
+}
+
+ul {
+	list-style: none;
+}
+
+.comingsoon {
+
+	margin-left: 60vw;
+	margin-top: 5vw;
+	text-align: center;
+	font-size: 3vw;
+	font-family: 'Open Sans', sans-serif;
+}
+
+span {
+
+	font-size: 5vw;
+	color: white;
+}
+
+.orderat {
+
+	margin-left: 60vw;
+	margin-top: -1.25vw;
+	font-size: 2vw;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+	margin-top: -1.25vw;
+	margin-left: 58vw;
+	font-size: 1.7vw;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	line-height: 2.5vw;
+}
+
+button
+{
+	background-color: rgba(244,244,244,0.3);
+	color: white;
+	border: 0px solid white;
+	cursor: pointer;
+}
