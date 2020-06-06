@@ -2,10 +2,9 @@ body {
 
 	background-image: url(banner.jpeg);
 	background-repeat: no-repeat;
+	background-size: 100%;
 	background-attachment: fixed;
 	background-position: center center;
-	background-size: cover;
-	
 
 	
 }
@@ -53,4 +52,47 @@ button
 	border: 0px solid white;
 	cursor: pointer;
 	font-size: 1vw;
+}
+
+@media screen and (max-width:959px){
+
+	body{
+
+		width: 100%;
+	}
+
+	.comingsoon{
+		width: 20%;
+	}
+
+	.orderat{
+
+		width: 20%
+	}
+
+	ul{
+
+		width:60%
+	}
+
+
+}
+
+@media screen and (max-width:640px){
+	
+	.comingsoon{
+		width: 100%;
+	}
+
+	.orderat{
+
+		width: 100%
+	}
+
+	ul{
+
+		width:100%
+	}
+
+
 }
