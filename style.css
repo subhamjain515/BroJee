@@ -2,9 +2,11 @@ body {
 
 	background-image: url(banner.jpeg);
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-attachment: fixed;
 	background-position: center center;
+	height: auto;
+	width: auto;
 
 	
 }
@@ -54,29 +56,7 @@ button
 	font-size: 1vw;
 }
 
-@media screen and (max-width:959px){
 
-	body{
-
-		width: 100%;
-	}
-
-	.comingsoon{
-		width: 20%;
-	}
-
-	.orderat{
-
-		width: 20%
-	}
-
-	ul{
-
-		width:60%
-	}
-
-
-}
 
 @media screen and (max-width:640px){
 	
